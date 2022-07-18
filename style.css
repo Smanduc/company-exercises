@@ -1,0 +1,209 @@
+html, body {
+  height: 100vh;
+}
+
+#about-company-div {
+  background: #3d3db3;
+  border-radius: 20px;
+  margin: auto;
+/*   dimensiunea este egala cu amxim dimensiunea continutului div-ului */
+/*   width: max-content; */
+  width: 400px;
+/*   dimnensiunea relativa la dimensiunea parintelui */
+/*   dimensiunea div-ului este de 50% din dimensiunea parintelui  adica dimensiunea lui body */
+  /*   width: 50%; */  
+  padding: 20px;
+}
+
+h2, p {
+  color: white;
+}
+
+h2 {
+  text-align: center;
+}
+
+.pgfone {
+  border: solid 6px white;
+  padding: 6px;
+}
+
+a {
+ color: white;
+  background: black;
+  text-align: center;
+  border-radius: 10px;
+  padding: 6px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: block;
+  font-size: 24px;
+/*   text-decoration: line-through; */
+  text-decoration: none;
+}
+
+img {
+  margin: auto;
+  display: block;
+}
+
+/* div{
+  display: inline-block;
+
+} */
+
+#contact-div {
+  background: #6d466d;
+  width: 400px;
+  margin-left: auto;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+button {
+  color: white;
+  background: black;
+  padding: 6px;
+}
+
+input {
+  padding: 6px;
+}
+
+#procese-div {
+  background: #b0c2d8;
+  border-radius: 30px;
+  padding: 10px;
+  width: 350px;
+  margin-top: 20px;
+  font-family: "Comic Sans MS";
+  margin-left: 60px;
+}
+
+#procese-title {
+  color: black;
+  font-weight: 900;
+}
+#pgftwo {
+  color: black;
+}
+
+li {
+  font-size: 13px;
+}
+
+#other-side-div {
+  background: #346c7f;
+  width: 130px;
+  margin-top: 20px;
+  padding: 15px;
+  margin-right: auto;
+  color: white;
+}
+
+/* company.css */
+
+
+header {
+  text-align: center;
+  background: rgba(0,0,0,0.6);
+  padding: 20px;
+  display: block;
+  border-bottom: solid 1px white;
+}
+
+#valorile-companiei {
+  background: url(https://geoota.com/wp-content/uploads/2019/11/Company-Profile.jpg) center center;
+  height: 100vh;
+}
+
+h1 {
+  border-bottom: 20px;
+  color: white;
+  text-align: center;
+  font-size: 46px;
+}
+
+#company-title {
+  color: white;
+  text-align: center;
+}
+
+.topnav-div {
+  border: solid 2px white; 
+  border-radius: 10px;
+}
+
+.link {
+  background:#07075f;
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+  border-radius: 10px;
+  padding: 11px;
+  text-decoration: underline;
+  margin: 15px;
+  box-shadow: 2px 2px #696969;
+}
+
+#outer-div {
+  border: solid 3px white;
+  border-radius: 10px;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+}
+
+.inner-div {
+  width: 25%;
+  background: rgba(0,0,0,0.6);
+  border-radius: 20px;
+  box-shadow: 4px 4px #000000;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 10px;
+  height: 250px;
+  padding: 20px;
+}
+
+.inner-div h2 {
+  font-size: 32px;
+}
+.inner-div p {
+  font-size: 24px;
+}
+
+.inner-div li {
+  font-size: 24px;
+}
+
+.inner-div li {
+  color: white;
+}
+
+.image-disciplina {
+  width: 100%;
+}
+
+.lista-div {
+  color: white;
+  text-align: center;
+}
+
+#learning-button {
+  background: #686ce3;
+  border-radius: 15px;
+  font-size: 16px;
+  padding: 10px;
+  border:none;
+  cursor: pointer;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: #07075f;
+  border-top: solid 2px white;
+  text-align: center;
+}

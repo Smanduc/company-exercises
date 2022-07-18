@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div id="about-company-div">
+    <h2>Despre companie</h2>
+    <img src="images/company.png" width="200">
+    <p class = "pgfone">Compania este alcatuita din mai multi angajati. Fiecare angajat lucreaza full time</p>
+    <a href="company.html"> Valorile companiei </a>
+  </div>
+  
+<!--   <div id="about-company-div1">
+    <h2>Despre companie</h2>
+    <img src="images/company.png" width="200">
+    <p>Compania este alcatuita din mai multi angajati. Fiecare angajat lucreaza full time</p>
+    <a href="www.google.com"> Valorile companiei </a>
+
+  </div> -->
+
+  <!--   elemente de tip container ca si div-ul -->
+  <!--   <header></header>
+  <main></main> -->
+ <div id = "contact-div">
+   <h2>Contact</h2>
+   <p class = "pgfone">Introduceti adresa de email pentru a fi contactat </p>
+   <input type ="text" name = "emailadress" value = "x" id = "emailadress"/>
+   <button type = "button" onclick="getValue()">Contact</button>
+   <script type = "text/js">
+     function getValue() {
+     var inputText = document.getElementById("emailadress").value;
+     console.log(inputText);
+     }
+   </script>
+ </div>
+  
+
+  <div id = "procese-div">
+    <h2 id = "procese-title"<h2>Procese</h2>
+    <p id = "pgftwo" <p>Procesele din compania noastra</p>
+
+    <ul>
+      <li>Design</li>
+      <li>Cercetare</li>
+      <li>Implementare</li>
+      <li>Tastaura</li>
+    </ul>
+                                    
+  </div>
+
+  <div id = "other-side-div">
+    <h1>Other side</h1>
+    <p>Hello from the other side</p>
+  </div>
+  <script src="script.js"></script>
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+</body>
+
+</html>
