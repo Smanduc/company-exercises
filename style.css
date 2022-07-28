@@ -1,5 +1,5 @@
 html, body {
-  height: 100vh;
+  height: 100%;
 }
 
 #about-company-div {
@@ -94,11 +94,15 @@ li {
 
 #other-side-div {
   background: #346c7f;
-  width: 130px;
+  width: max-content;
   margin-top: 20px;
   padding: 15px;
   margin-right: auto;
   color: white;
+}
+
+#title-other-side {
+  text-align: left;
 }
 
 /* company.css */
@@ -114,7 +118,7 @@ header {
 
 #valorile-companiei {
   background: url(https://geoota.com/wp-content/uploads/2019/11/Company-Profile.jpg) center center;
-  height: 100vh;
+  height: 100%;
 }
 
 h1 {
@@ -132,6 +136,8 @@ h1 {
 .topnav-div {
   border: solid 2px white; 
   border-radius: 10px;
+  margin-left: 3px;
+  margin-right: 3px;
 }
 
 .link {
