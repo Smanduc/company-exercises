@@ -25,3 +25,6 @@
 //   // //atasam emai ul in lista lui
 //   // listenElement.apprendChild(i)
 // }
+
+
+let hello = "Hello"
